@@ -21,7 +21,7 @@ I used Etcher to quickly flash the media: https://www.balena.io/etcher/
 
 Insert flash media into flash port and add power to HC2 to start the boot process.
 ssh to odroid after boot up.  Might take two tries (most of the time).
-ssh root@<host>
+ssh root@host
 password: odroid
 
 Change password and hostname.  Reboot.
@@ -121,7 +121,7 @@ Flash the above image to flash media.
 
 Insert flash media into flash port and add power to HC2 to start the boot process.
 ssh to odroid after boot up.  Might take two tries (most of the time).
-ssh root@<host>
+ssh root@host
 password: odroid
 
 Change password and hostname.  Reboot.
