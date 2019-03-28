@@ -9,7 +9,7 @@ https://ameridroid.com/collections/single-board-computer/products/odroid-hc2
 1 Odroid C2:
 https://ameridroid.com/collections/single-board-computer/products/odroid-c2
 
-Make sure to get the necessary power supplies and either MicroSD or other storage medium for flashing the OS to boot from on the SBC.
+Make sure to get the necessary power supplies and either MicroSD or other storage medium for flashing the OS to boot from on the SBC.  You will also need a drive for each HC2 you purchase, and I went with generic 4TB 7200RPM hard drive but you could go with SSD if performance is needed.
 
 ## Install Gluster Servers
 
