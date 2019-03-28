@@ -1,5 +1,5 @@
-# GlusterOwncloudOdroidSetup
-Gluster on Odroid HC2 with Ubuntu for OwnCloud on Odroid C2
+# Gluster on Odroid HC2 with Ubuntu for OwnCloud on Odroid C2
+How to setup Odroid HC2 Ubuntu and use as Gluster servers.  Then how to configure Odroid C2 Owncloud server as gluster client.
 
 ## Install Gluster Servers
 
