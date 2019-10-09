@@ -100,8 +100,8 @@ Create distributed glisterfs volume:
 
 ```
 gluster volume create vol01 replica 2 transport tcp \
-> gfs01.humphries.home:/glusterfs/distributed \
-> gfs02.humphries.home:/glusterfs/distributed \
+> gfs01:/glusterfs/distributed \
+> gfs02:/glusterfs/distributed \
 > force
 ```
 Start the gluster volume:
@@ -163,13 +163,13 @@ mkdir -p /mnt/glusterfs
 
 Mount the gluster volume to the client directory:
 ```
-mount -t glusterfs gfs01.humphries.home:/vol01 /mnt/glusterfs
+mount -t glusterfs gfs01:/vol01 /mnt/glusterfs
 ```
 
 Make sure to auto mount the gluster volume on restarts:
 vi /etc/fstab
 ```
-gfs01.humphries.home:/vol01 /mnt/glusterfs glusterfs defaults,_netdev 0 0
+gfs01:/vol01 /mnt/glusterfs glusterfs defaults,_netdev 0 0
 ```
 
 Install Apache:
